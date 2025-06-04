@@ -171,7 +171,7 @@ export default function Technology() {
               {techSkills.map((tech, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-white py-[7px] px-[30px] rounded-md text-[18px] font-prime mb-[10px]"
+                  className="flex items-center text-white py-[7px] px-[24px] rounded-md text-[18px] font-prime mb-[10px]"
                   style={{
                     clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)',
                     background: 'linear-gradient(90deg, #f08223 0%, #f44336 100%)',

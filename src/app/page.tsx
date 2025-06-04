@@ -4,6 +4,8 @@ import Awards from '@/components/Award';
 import React from 'react'
 import Service from '@/components/Service';
 import Technology from '@/components/Technology';
+import Work from '@/components/Work';
+import Company_Detail from '@/components/Company_Detail';
 
 
 function page() {
@@ -14,6 +16,8 @@ function page() {
    <Awards />
    <Service />
    <Technology />
+   <Work />
+   <Company_Detail />
     </>
   );
 }
