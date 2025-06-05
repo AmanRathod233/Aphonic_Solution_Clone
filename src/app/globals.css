@@ -88,7 +88,10 @@
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
   border-radius: 5px 8px 8px 100px;
 }
-
+.clip-angled-form
+{
+  clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+}
 .direction {
   direction: ltr;
 }
@@ -101,6 +104,23 @@
   font-size: 30px;
   height: 100%;
 
+}
+
+.number::after{
+  content: "";
+  border-left-width: 1px;
+  border-color: #DDDDDD3B;
+  height: 28px;
+  right: calc(-20px / 2);
+  position: relative;
+  color:#fff;
+}
+
+.border_right::after{
+  content: "";
+  border-left-width: 1px;
+  border-color: #DDDDDD3B;
+  height: 18px;
 }
 
 

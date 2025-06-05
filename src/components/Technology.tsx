@@ -33,7 +33,7 @@ function getIcon(icon: string | undefined) {
   switch (icon) {
     case 'shopify':
       return (
-        <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" height="25" fill="#fff" viewBox="0 0 512 512" width="25"><g><path d="m338.456 59.73c-.034.01-5.726 1.772-15.333 4.746-1.603-5.207-3.967-11.604-7.337-18.03-10.866-20.726-26.771-31.697-45.997-31.725-.022 0-.042 0-.065 0-1.333 0-2.661.126-3.99.246-.565-.68-1.136-1.355-1.738-1.999-8.37-8.959-19.118-13.323-31.983-12.946-24.834.712-49.554 18.644-69.604 50.49-14.114 22.414-24.836 50.57-27.886 72.363-28.508 8.828-48.455 15.005-48.886 15.141-14.39 4.516-14.842 4.968-16.729 18.526-1.429 10.264-39.078 301.432-39.078 301.432l312.407 54.026v-452.909c-1.541.098-2.918.385-3.781.639zm-72.139 22.335c-16.532 5.119-34.581 10.708-52.685 16.314 5.097-19.499 14.746-38.912 26.602-51.632 4.411-4.731 10.581-10.01 17.887-13.025 6.873 14.323 8.362 34.627 8.196 48.343zm-33.827-65.521c5.83-.122 10.741 1.157 14.934 3.917-6.707 3.482-13.196 8.489-19.281 15.015-15.773 16.92-27.854 43.191-32.672 68.526-15.036 4.656-29.742 9.209-43.271 13.399 8.534-39.899 41.966-99.755 80.29-100.857zm-48.317 227.226c1.678 26.577 71.594 32.384 75.525 94.633 3.092 48.975-25.976 82.474-67.862 85.12-50.263 3.173-77.939-26.485-77.939-26.485l10.65-45.313s27.852 21.015 50.148 19.607c14.563-.92 19.768-12.764 19.239-21.141-2.189-34.668-59.122-32.626-62.719-89.591-3.027-47.943 28.454-96.512 97.92-100.898 26.766-1.69 40.471 5.144 40.471 5.144l-15.886 59.424s-17.719-8.068-38.726-6.742c-30.802 1.943-31.129 21.373-30.821 26.242zm98.652-166.816c-.183-12.574-1.685-30.064-7.543-45.183 18.841 3.57 28.118 24.888 32.033 37.6-7.26 2.248-15.531 4.808-24.49 7.583z"></path><path d="m352.568 510.765 129.601-32.214s-55.8-377.268-56.154-379.855c-.354-2.588-2.621-4.019-4.49-4.175s-38.354-.711-38.354-.711-22.246-21.605-30.604-29.778v446.733z"></path></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" height="21" fill="#fff" viewBox="0 0 512 512" width="25"><g><path d="m338.456 59.73c-.034.01-5.726 1.772-15.333 4.746-1.603-5.207-3.967-11.604-7.337-18.03-10.866-20.726-26.771-31.697-45.997-31.725-.022 0-.042 0-.065 0-1.333 0-2.661.126-3.99.246-.565-.68-1.136-1.355-1.738-1.999-8.37-8.959-19.118-13.323-31.983-12.946-24.834.712-49.554 18.644-69.604 50.49-14.114 22.414-24.836 50.57-27.886 72.363-28.508 8.828-48.455 15.005-48.886 15.141-14.39 4.516-14.842 4.968-16.729 18.526-1.429 10.264-39.078 301.432-39.078 301.432l312.407 54.026v-452.909c-1.541.098-2.918.385-3.781.639zm-72.139 22.335c-16.532 5.119-34.581 10.708-52.685 16.314 5.097-19.499 14.746-38.912 26.602-51.632 4.411-4.731 10.581-10.01 17.887-13.025 6.873 14.323 8.362 34.627 8.196 48.343zm-33.827-65.521c5.83-.122 10.741 1.157 14.934 3.917-6.707 3.482-13.196 8.489-19.281 15.015-15.773 16.92-27.854 43.191-32.672 68.526-15.036 4.656-29.742 9.209-43.271 13.399 8.534-39.899 41.966-99.755 80.29-100.857zm-48.317 227.226c1.678 26.577 71.594 32.384 75.525 94.633 3.092 48.975-25.976 82.474-67.862 85.12-50.263 3.173-77.939-26.485-77.939-26.485l10.65-45.313s27.852 21.015 50.148 19.607c14.563-.92 19.768-12.764 19.239-21.141-2.189-34.668-59.122-32.626-62.719-89.591-3.027-47.943 28.454-96.512 97.92-100.898 26.766-1.69 40.471 5.144 40.471 5.144l-15.886 59.424s-17.719-8.068-38.726-6.742c-30.802 1.943-31.129 21.373-30.821 26.242zm98.652-166.816c-.183-12.574-1.685-30.064-7.543-45.183 18.841 3.57 28.118 24.888 32.033 37.6-7.26 2.248-15.531 4.808-24.49 7.583z"></path><path d="m352.568 510.765 129.601-32.214s-55.8-377.268-56.154-379.855c-.354-2.588-2.621-4.019-4.49-4.175s-38.354-.711-38.354-.711-22.246-21.605-30.604-29.778v446.733z"></path></g></svg>
       );
     case 'WooCommerce':
       return (
@@ -51,7 +51,7 @@ function getIcon(icon: string | undefined) {
       x="0px"
       y="0px"
       width="25px"
-      height="25px"
+      height="21px"
       viewBox="0 0 256 256"
       className="fill-white"
     >
@@ -77,7 +77,7 @@ function getIcon(icon: string | undefined) {
       );
     case 'Illustrator':
         return (
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="25px" height="25px" fill="#fff">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="25px" height="21px" fill="#fff">
           <g fill="#ffffff" fillRule="nonzero">
             <g transform="scale(5.12,5.12)">
               <path d="M6,4c-1.1,0 -2,0.9 -2,2v38c0,1.1 0.9,2 2,2h38c1.1,0 2,-0.9 2,-2v-38c0,-1.1 -0.9,-2 -2,-2zM19.92969,14h2.7207l4.79883,22h-2.43945l-1.39062,-6.42969h-4.79883l-1.41992,6.42969h-2.40039zM32.73047,14c0.93,0 1.51953,0.63055 1.51953,1.56055c0,0.94 -0.58953,1.57031 -1.51953,1.57031h-0.03125c-0.82,0 -1.44922,-0.63031 -1.44922,-1.57031c0,-0.93 0.66047,-1.56055 1.48047,-1.56055zM21.23047,16.43945c-0.26,1.63 -0.58039,3.49094 -0.90039,4.96094l-1.09961,5.59961h4.08984l-1.13086,-5.63086c-0.32,-1.54 -0.60914,-3.32969 -0.86914,-4.92969zM31.5,19h2.5v17h-2.5z" />
@@ -87,7 +87,7 @@ function getIcon(icon: string | undefined) {
         );
         case 'InDesign':
       return (
-       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="25px" height="25px" fill="#ffffff">
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="25px" height="21px" fill="#ffffff">
   <g fill="#ffffff" fillRule="nonzero" stroke="none" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="miter" strokeMiterlimit="10" fontFamily="none" fontWeight="none" fontSize="none" textAnchor="none" style={{ mixBlendMode: 'normal' }}>
     <g transform="scale(5.12,5.12)">
       <path d="M44,4h-38c-1.1,0 -2,0.9 -2,2v38c0,1.1 0.9,2 2,2h38c1.1,0 2,-0.9 2,-2v-38c0,-1.1 -0.9,-2 -2,-2zM19.5,36h-2.5v-22h2.5zM34,32.62c0,1.06 -0.03,2.48 0,3.38h-2.5v-1.62c-0.48,1.08 -1.39,1.93 -3.02,1.93c-2.62,0 -4.48,-3.31 -4.48,-8.43c0,-5.51 2.3,-7.88 4.7,-7.88c1.12,0 2.18,0.56 2.8,1.87v-7.87h2.5zM29.25,22.11c-2.05,0 -2.79,2.66 -2.79,5.77c0,3.26 0.8,6.38 2.6,6.38c0.76,0 1.76,-0.4 2.3,-2.64c0.1,-0.28 0.13,-0.87 0.13,-0.87v-4.56c0,-0.32 0.03,-0.71 0,-1.07c-0.13,-1.6 -1.06,-3.01 -2.24,-3.01z" />
@@ -100,8 +100,8 @@ function getIcon(icon: string | undefined) {
         <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 256 256"
-      width="25"
-      height="25"
+      width="25px"
+      height="21px"
       fill="#ffffff"
     >
       <g
@@ -128,8 +128,8 @@ function getIcon(icon: string | undefined) {
       return (      
       <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="25"
-      height="25"
+      width="25px"
+      height="21px"
       viewBox="0 0 24 24"
         fill="#ffffff"
       xmlSpace="preserve"
@@ -153,13 +153,13 @@ export default function Technology() {
   return (
     <section className="technology mt-[-200px] px-4">
       <div className="container mx-auto max-w-[1280px] bg-[#e9e9e9] rounded-[20px] pt-[30px] pl-[50px] pr-[20px] pb-[20px]">
-        <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+        <div className="flex flex-col md:flex-row items-center">
           {/* Left column */}
           <div className="w-full md:w-[292px] p-[10px]">
-            <h4 className="text-[32px] sm:text-[36px] md:text-[40px] leading-[1.2] font-prime font-bold text-black mb-4">
+            <h3 className="text-[32px] sm:text-[36px] md:text-[40px] leading-[1.2] font-prime font-bold text-black mb-4">
               Technology <br />
               <span className="font-normal">we use</span>
-            </h4>
+            </h3>
             <p className="text-[16px] sm:text-[17px] leading-[27px] font-opensans text-black tracking-wide">
               We may use a combination of different technologies to build our websites.
             </p>
@@ -171,16 +171,16 @@ export default function Technology() {
               {techSkills.map((tech, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-white py-[7px] px-[24px] rounded-md text-[18px] font-prime mb-[10px]"
+                  className="flex items-center text-white py-[7px] px-[28px] rounded-md text-[18px] font-prime mb-[10px]"
                   style={{
                     clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)',
                     background: 'linear-gradient(90deg, #f08223 0%, #f44336 100%)',
                   }}
                 >
-                  <span className="text-[21px] w-[1.25em] mr-[3px]">
+                  <span className="text-[21px] w-[1.25em] mr-[3px] leading-[21px]">
                     {getIcon(tech.icon)}
                   </span>
-                  <span className="pl-[5px]">{tech.name}</span>
+                  <span className="pl-[5px] leading-[23px]">{tech.name}</span>
                 </li>
               ))}
             </ul>
