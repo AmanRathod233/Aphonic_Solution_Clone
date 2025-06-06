@@ -7,7 +7,7 @@ export default function CompanyDetail() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section className="company_counter max-w-[1805px] mx-auto bg-[#F4F8FF] px-3 pt-3 sm:pb-[400px] rounded-[20px]">
+    <section className="company_counter bg-[#F4F8FF] px-3 pt-3 sm:pb-[400px] rounded-[20px] mx-[50px]">
       <div className="container max-w-[1805px] mx-auto">
         <div className="mt-[70px] mb-[30px] pt-[60px] pb-[80px] bg-[url('/assets/images/bg-counter.webp')] bg-top bg-no-repeat bg-[length:60%_auto] relative">
           <div className="max-w-[856px] mx-auto">

@@ -7,7 +7,7 @@ export default function Project() {
         className="project mt-[70px] sm:-mt-[400px]
           "
       >
-        <div className="container max-w-[1280px] mx-auto p-[10px] px-4 sm:px-6 lg:px-8">
+        <div className="container max-w-[1280px] mx-auto p-[10px]">
           <div className="heading mb-6 sm:mb-5 xs:mb-4">
             <p
               className="text-[20px] font-prime font-[700] leading-[28px] text-center sm:text-left tracking-[0.2]

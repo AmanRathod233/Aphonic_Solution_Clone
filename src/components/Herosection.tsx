@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import NavBar from './NavBar';
+import RotatingText from './ui/RotatingText';
 
 export default function HeroSection() {
   return (
@@ -8,7 +9,7 @@ export default function HeroSection() {
       <section className="hero_section bg-transparent bg-[linear-gradient(159deg,#F55E2E_0%,#BD144E_100%)] relative  min-h-screen">
         {/* Bottom SVG Shape */}
         <div
-          className="shape-bottom absolute bottom-0 left-0 w-full "
+          className="shape-bottom absolute -bottom-[1px] left-0 w-full "
           data-negative="true"
         >
          <svg
@@ -29,17 +30,17 @@ export default function HeroSection() {
         </div>
         
         {/* Background Overlay */}
-        <div className="absolute inset-0 bg-[url('/assets/images/Hero_Section_Bg.webp')] bg-cover bg-center filter [filter:brightness(2)_contrast(2)_saturate(1.32)_blur(0)_hue-rotate(11deg)] opacity-[0.13] -z-1 "></div>
+        <div className="absolute inset-0 bg-[url('/assets/images/Hero_Section_Bg.webp')] bg-cover bg-center filter [filter:brightness(2)_contrast(2)_saturate(1.32)_blur(0)_hue-rotate(11deg)] opacity-[0.13] z-[-1]"></div>
 
         {/* NavBar */}
         <NavBar />
-        <div className="container max-w-[1280px] mx-auto h-f w-full pt-[20px]">
+        <div className="container max-w-[1280px] mx-auto h-full w-full pt-[20px] pb-[100px] sm:pb-[0px]">
 
         {/* Hero Content */}
-          <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center ">
             
             {/* Image Column - First on mobile, second on desktop */}
-            <div className="flex justify-center order-1 md:order-2 -z-0">
+            <div className="flex justify-center order-1 md:order-2 -z-0 p-[10px]">
               <img
                 src="/assets/images/Hero_Section_img.webp"
                 alt="Hero Section"
@@ -49,13 +50,27 @@ export default function HeroSection() {
             </div>
 
             {/* Text Column - Second on mobile, first on desktop */}
-            <div className="text-center md:text-left order-2 md:order-1">
-              <h1 className="text-4xl md:text-[55px] mb-4 font-prime text-white leading-tight font-[300]">
-                We <span className="font-prime1 px-2 inline-block">Design</span>
-                <br /> and <span className="font-prime1">Build</span> ultimate
-                <br />
-                things.
-              </h1>
+            <div className="text-left order-2 md:order-1 p-[10px]">
+              <h1 className="text-[55px] mb-4 font-prime text-white leading-[65px] font-[300]">
+  We{" "}
+  <span className="inline-block">
+    <RotatingText
+      texts={['Design', 'Develop', 'Create', 'Inspire']}
+      mainClassName="font-prime1 text-[#fff] overflow-hidden justify-center  inline-flex"
+      staggerFrom="last"
+      initial={{ y: "100%" }}
+      animate={{ y: 0 }}
+      exit={{ y: "-120%" }}
+      staggerDuration={0.025}
+      splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
+      transition={{ type: "spring", damping: 30, stiffness: 400 }}
+      rotationInterval={2000}
+    />
+  </span>
+  <br /> and <span className="font-prime1">Build</span> ultimate
+  <br />
+  things.
+</h1>
               <p className="text-white font-prime text-[20px] leading-[34px] font-[500]">
                 Our design & technology team will meet with you to
                 <br />
@@ -65,7 +80,7 @@ export default function HeroSection() {
               </p>
 
               {/* Buttons */}
-              <div className="hero_section_btn flex flex-wrap pt-[40px] justify-center md:justify-start">
+              <div className="hero_section_btn flex flex-wrap pt-[40px] justify-center">
                 <div className="flex items-center justify-start max-w-[170px] w-full">
                   <a
                     href="/contactus"
@@ -90,13 +105,15 @@ export default function HeroSection() {
               </div>
 
               {/* Mouse Icon */}
-              <div className="mouse_img w-[20px] h-[34px] mt-[30px] mx-auto md:mx-0">
+              <div className="mouse_img w-[20px] h-[34px] mt-[30px]">
+                <a href="#">
                 <img
                   src="https://aphonicsolutions.com/wp-content/uploads/2023/04/clicker-black.webp"
                   alt="clicker-black"
                   loading="lazy"
                   className="w-full h-full object-contain"
                 />
+                </a>
               </div>
             </div>
           </div>

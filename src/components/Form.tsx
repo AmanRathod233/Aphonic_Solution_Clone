@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function RequestQuoteForm() {
   return (
-    <section className="bg-[linear-gradient(173deg,#f44336_-2.63%,#f44336_63.19%,#f08223_122.49%)] clip-angled-form">
+    <section className="bg-[linear-gradient(173deg,#f44336_-2.63%,#f44336_63.19%,#f08223_122.49%)] clip-angled-form ">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex flex-wrap -mx-4">
           {/* Left Column (50%) */}

@@ -151,7 +151,7 @@ function getIcon(icon: string | undefined) {
 
 export default function Technology() {
   return (
-    <section className="technology mt-[-200px] px-4">
+    <section className="technology mt-[-200px] px-4 mx-[20px] sm:mx-[0px] ">
       <div className="container mx-auto max-w-[1280px] bg-[#e9e9e9] rounded-[20px] pt-[30px] pl-[50px] pr-[20px] pb-[20px]">
         <div className="flex flex-col md:flex-row items-center">
           {/* Left column */}

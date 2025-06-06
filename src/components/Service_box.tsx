@@ -73,9 +73,9 @@ const services = [
 
 export default function Service_Box() {
   return (
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
   {services.map(service => (
-    <div key={service.id}>
+    <div key={service.id} className='p-[10px]'>
       <div className="service_box relative bg-white p-[35px] rounded-[16px] shadow-lg h-[100%] z-0 group">
         <a href={service.link} className="service_icon relative block w-[40%]">
           <img

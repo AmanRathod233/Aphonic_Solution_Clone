@@ -62,7 +62,7 @@ export default function CustomAccordion() {
               </div>
             ))}
           </div>
-          <div className="col-span-5">
+          <div className="col-span-5 p-[10px]">
             <RequestQuoteForm/>
           </div>
         </div>

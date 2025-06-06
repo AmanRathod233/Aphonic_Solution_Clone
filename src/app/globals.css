@@ -120,7 +120,9 @@
   content: "";
   border-left-width: 1px;
   border-color: #DDDDDD3B;
-  height: 18px;
+  height: 24px;
+  display: inline-block; 
+  vertical-align: middle;
 }
 
 
