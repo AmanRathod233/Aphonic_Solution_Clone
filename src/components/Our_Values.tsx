@@ -33,7 +33,7 @@ export default function Our_Values() {
                     We believe in doing things the right way. We work hard to create a positive working environment where everyone is treated with respect.
                   </p>
                 </div>
-                <div className="values_detail py-5">
+                <div className="values_detail_ py-5">
                   <div className="grid grid-cols-12 gap-6 sm:gap-8">
                     <div className="value_box_1 flex col-span-12 sm:col-span-6 p-[10px]">
                       <div className="icon flex justify-center items-baseline mr-[15px] leading-1">
