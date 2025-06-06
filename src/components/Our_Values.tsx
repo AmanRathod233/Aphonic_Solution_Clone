@@ -80,7 +80,7 @@ export default function Our_Values() {
                     </div>
                   </div>
                 </div>
-                <div className="values_detail mb-2">
+                <div className="values_detail_1 mb-2">
                   <div className="grid grid-cols-12 gap-6 sm:gap-8">
                     <div className="value_box_1 flex col-span-12 sm:col-span-6 p-[10px]">
                       <div className="icon flex justify-center items-baseline mr-[15px] leading-1">
