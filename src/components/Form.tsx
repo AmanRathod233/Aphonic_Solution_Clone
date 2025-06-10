@@ -8,13 +8,13 @@ export default function RequestQuoteForm() {
         <div className="flex flex-wrap -mx-4">
           {/* Left Column (50%) */}
           <div className="w-full">
-            <div className="relative pt-[80px] pb-[50px] px-[50px]">
+            <div className="relative sm:pt-[80px] sm:pb-[50px] sm:px-[50px] py-[50px] px-[20px]">
               {/* Overlay (if needed) */}
               <div className="absolute inset-0 opacity-[0.07] pointer-events-none rounded-md bg-[url('/assets/images/form_bg.webp')] bg-[position:top_center] z-0"></div>
 
               {/* Heading */}
-              <h2 className="text-[50px] font-prime font-[700] text-[#FFFFFF42] uppercase tracking-[0.2px] leading-[35px] mb-[20px]">Request Free</h2>
-              <h2 className="text-[42px] font-opensans tect-[#000] font-[700] tracking-[0.2px] leading-[36px] -mt-[35px] mb-[20px]">Quotes</h2>
+              <h2 className="sm:text-[50px] text-[32px] font-prime font-[700] text-[#FFFFFF42] uppercase tracking-[0.2px] leading-[35px] mb-[20px]">Request Free</h2>
+              <h2 className="sm:text-[42px] text-[32px] font-opensans text-[#000] font-[700] tracking-[0.2px] leading-[36px] sm:-mt-[35px] -mt-[30px] mb-[20px]">Quotes</h2>
 
            {/* Form */}
               <form className="space-y-4 relative z-100">

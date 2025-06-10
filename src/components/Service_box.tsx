@@ -86,7 +86,7 @@ export default function Service_Box() {
         </a>
         <div className="service_box_heading mb-[10px]">
           <a href={service.link}>
-            <h3 className="font-prime text-[23px] leading-[34px] font-bold mb-[10px] group-hover:text-[#fff]">
+            <h3 className="font-outfit text-[23px] leading-[34px] font-[600] mb-[10px] group-hover:text-[#fff]">
               {service.title}
             </h3>
           </a>

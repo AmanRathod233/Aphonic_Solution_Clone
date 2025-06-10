@@ -151,8 +151,8 @@ function getIcon(icon: string | undefined) {
 
 export default function Technology() {
   return (
-    <section className="technology mt-[-200px] px-4 mx-[20px] sm:mx-[0px] ">
-      <div className="container mx-auto max-w-[1280px] bg-[#e9e9e9] rounded-[20px] pt-[30px] pl-[50px] pr-[20px] pb-[20px]">
+    <section className="technology mt-[-200px] mx-[20px] sm:mx-[0px]">
+      <div className="container mx-auto max-w-[1280px] bg-[#e9e9e9] rounded-[20px] pt-[30px] sm:pl-[50px] px-[15px] pb-[20px]">
         <div className="flex flex-col md:flex-row items-center">
           {/* Left column */}
           <div className="w-full md:w-[292px] p-[10px]">
@@ -166,21 +166,24 @@ export default function Technology() {
           </div>
 
           {/* Right column */}
-          <div className="w-full md:flex-1 p-[10px]">
-            <ul className="flex flex-wrap">
+          <div className="w-full md:flex-1 sm:p-[10px]">
+            {/* Use grid: 2 cols on mobile, 4 on md+, then flex after */}
+            <ul className="grid grid-cols-2 md:flex md:flex-wrap ">
               {techSkills.map((tech, index) => (
                 <li
                   key={index}
-                  className="flex items-center text-white py-[7px] px-[28px] rounded-md text-[18px] font-prime mb-[10px]"
+                  className="flex items-center text-white sm:px-[28px] sm:py-[7px] py-[5px] px-[15px]  mb-[10px] rounded-md text-[18px] font-prime"
                   style={{
                     clipPath: 'polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)',
                     background: 'linear-gradient(90deg, #f08223 0%, #f44336 100%)',
                   }}
                 >
-                  <span className="text-[21px] w-[1.25em] mr-[3px] leading-[21px]">
+                  <span className="text-[18px] sm:text-[21px] w-[1.25em] mr-[3px] leading-[21px]">
                     {getIcon(tech.icon)}
                   </span>
-                  <span className="pl-[5px] leading-[23px]">{tech.name}</span>
+                  <span className="pl-[5px] sm:text-[18px] text-[13px] leading-[1.5]">
+                    {tech.name}
+                  </span>
                 </li>
               ))}
             </ul>
@@ -190,3 +193,4 @@ export default function Technology() {
     </section>
   );
 }
+

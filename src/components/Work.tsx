@@ -4,19 +4,21 @@ import IdeaCard from './WorkCard'; // Adjust the path as needed
 
 const Work: React.FC = () => {
   return (
-    <section className="work bg-[url('/assets/images/grid.webp')] pt-[90px] pb-[70px] bg-no-repeat bg-[position:100%_7%] relative">
-      <div className="container max-w-[1280px] mx-auto px-4">
+    <section className="work  sm:pt-[90px] sm:pb-[70px] py-[50px]  relative z-[9999]">
+              <div className="absolute inset-0 bg-[url('/assets/images/grid.webp')] bg-no-repeat sm:bg-[position:100%_7%] bg-[position:center_center] opacity-[0.57] z-[0]"></div>
+
+      <div className="container max-w-[1280px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-6">
           {/* Text Column */}
           <div className="order-2 md:order-1 p-[10px]">
-            <h3 className="title font-prime text-[30px] md:text-[35px] font-[700] leading-[42px] md:leading-[48px] mb-[20px] text-left">
+            <h3 className="title font-prime text-[25px] md:text-[35px] font-[700] leading-[35px] md:leading-[48px] mb-[20px] text-left">
               <span className="bg-gradient-to-r from-[#f08223] via-[#f44336] to-[#f08223] bg-clip-text text-transparent">
                 digital business
               </span>{' '}
               model solution of exceptional quality 👋
             </h3>
 
-            <p className="text-[#000] font-opensans text-[16px] md:text-[18px] text-left leading-[26px] tracking-[0.5px] pb-[20px]">
+            <p className="text-[#000] font-opensans text-[18px] md:text-[18px] text-left leading-[28px] tracking-[1px] pb-[20px]">
               Our team has years of experience in web Development field, and we are passionate about
               helping our clients achieve the best possible results.
             </p>

@@ -29,7 +29,7 @@ export default function CustomAccordion() {
       <div className="container max-w-7xl mx-auto">
         
         <div className="grid grid-cols-12">
-          <div className="col-span-7 mr-[40px] p-[10px]">
+          <div className="md:col-span-7 col-span-12  mr-[0px] md:mr-[40px] p-[10px]">
             <div className="heading mb-[20px]">
           <h3 className='font-prime text-[35px] leading-[48px] tracking-[0.85px] font-[700]'>
             Frequently <span className="bg-[linear-gradient(90deg,#f08223_-2.63%,#f44336_63.19%,#f08223_122.49%)] bg-clip-text text-transparent font-prime font-[700]">asked</span> questions
@@ -39,7 +39,7 @@ export default function CustomAccordion() {
               <div key={id} className="my-[18px] border-e-[#d4d4d4] overflow-hidden" style={{ boxShadow: '0 2px 40px 0 rgb(0 0 0 / 9%)' }}>
                 <button
                   onClick={() => toggle(id)}
-                  className="w-full text-left px-5 py-4 flex justify-between items-center"
+                  className=" text-left px-5 py-4 flex justify-between items-center w-full"
                   aria-expanded={expanded === id}
                   aria-controls={`${id}-content`}
                   id={`${id}-header`}
@@ -62,7 +62,7 @@ export default function CustomAccordion() {
               </div>
             ))}
           </div>
-          <div className="col-span-5 p-[10px]">
+          <div className="md:col-span-5 col-span-12 p-[10px]">
             <RequestQuoteForm/>
           </div>
         </div>

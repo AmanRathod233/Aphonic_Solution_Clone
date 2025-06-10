@@ -20,7 +20,7 @@ export default function Service() {
                     </div>
                 </div>
 
-                <div className="container max-w-[1280px] mx-auto  p-[10px] ">
+                <div className="container max-w-[1280px] mx-auto">
                     
                         <ServiceBox />
                     

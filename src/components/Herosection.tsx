@@ -30,7 +30,7 @@ export default function HeroSection() {
         </div>
         
         {/* Background Overlay */}
-        <div className="absolute inset-0 bg-[url('/assets/images/Hero_Section_Bg.webp')] bg-cover bg-center filter [filter:brightness(2)_contrast(2)_saturate(1.32)_blur(0)_hue-rotate(11deg)] opacity-[0.13] z-[-1]"></div>
+        <div className="absolute inset-0 bg-[url('/assets/images/Hero_Section_Bg.webp')] bg-cover bg-center filter [filter:brightness(2)_contrast(2)_saturate(1.32)_blur(0)_hue-rotate(11deg)] opacity-[0.13] z-[0]"></div>
 
         {/* NavBar */}
         <NavBar />
@@ -80,8 +80,8 @@ export default function HeroSection() {
               </p>
 
               {/* Buttons */}
-              <div className="hero_section_btn flex flex-wrap pt-[40px] justify-center">
-                <div className="flex items-center justify-start max-w-[170px] w-full">
+              <div className="hero_section_btn flex flex-wrap pt-[40px]">
+                <div className="flex items-center justify-start sm:max-w-[170px] max-w-[150px] w-full">
                   <a
                     href="/contactus"
                     className="bg-white text-[#000] pl-[0px] w-full clip-angled-hero pr-[15px] pt-[15px] pb-[15px] rounded-md font-outfit text-[18px] leading-[18px] font-[500] hover:bg-[linear-gradient(159deg,#F55E2E_0%,#BD144E_100%)] hover:text-white transition-colors duration-300"
@@ -92,7 +92,7 @@ export default function HeroSection() {
                   </a>
                 </div>
 
-                <div className="flex items-center justify-start max-w-[170px] w-full">
+                <div className="flex items-center justify-start sm:max-w-[170px] max-w-[150px] w-full">
                   <a
                     href="/contactus"
                     className="bg-white text-[#000] w-full clip-angled-hero1 pt-[15px] pr-[8px] pb-[15px] pl-[15px] rounded-md font-outfit text-[18px] font-[500] leading-[18px] hover:bg-[linear-gradient(159deg,#F55E2E_0%,#BD144E_100%)] hover:text-white transition-colors duration-300"

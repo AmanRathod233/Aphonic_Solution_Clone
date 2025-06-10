@@ -3,7 +3,7 @@
 export default function Award() {   
     return (       
         <>
-        <section className="award_section mb-[70px]">
+        <section className="award_section sm:mb-[70px] mb-[50px]">
             <div className="container max-w-[955px] mx-auto">
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">

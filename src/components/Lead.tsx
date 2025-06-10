@@ -5,7 +5,7 @@ export default function Lead() {
   return (
     <>
 
-      <section className="sm:bg-[url('/assets/images/Abstract-Stroke-1.webp')] bg-no-repeat sm:bg-[position:105%_0px] py-12 md:py-20 relative pt-[80px] pb-[100px]">
+      <section className="sm:bg-[url('/assets/images/Abstract-Stroke-1.webp')] bg-no-repeat sm:bg-[position:105%_0px] py-[50px] relative sm:pt-[80px] sm:pb-[100px]">
       <div className="overlay_background sm:bg-[url('/assets/images/Abstract-Stroke-1.webp')] bg-no-repeat sm:bg-[position:-41px_97%] bg-[size:250px_auto] opacity-50 absolute inset-0 -z-1"></div>
       
         <div className="container max-w-[1280px] mx-auto"> {/* Added padding for better spacing on smaller screens */}

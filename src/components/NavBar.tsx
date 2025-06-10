@@ -7,26 +7,26 @@ export default function NavBar() {
     return (
         <header className="bg-transparent">
             <div className="container mx-auto max-w-[1280px]">
-                <div className="grid grid-cols-12 items-center justify-between w-full p-[10px]">
+                <div className="grid grid-cols-12 items-center justify-between w-full">
 
                     {/* Logo */}
-                    <div className="flex items-center p-[10px] w-max col-span-6 lg:col-span-2">
+                    <div className="flex items-center p-[10px] col-span-5 lg:col-span-2">
                         <a href="#">
                         <img
                             src="/assets/images/aphonic-solutions-logo.webp"
                             alt="logo"
-                            className="w-[171px] h-[61px] object-contain"
+                            className=" object-contain"
                         />
                         </a>
                     </div>
 
                     {/* Hamburger (Mobile only) */}
-                    <div className="col-span-6 flex justify-end items-center lg:hidden pr-2">
+                    <div className="col-span-7 flex justify-end items-center lg:hidden p-[10px]">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-white text-2xl"
+                            className="w-[40px] h-[40px] bg-[#f08223] text-white rounded-md flex items-center justify-center "
                         >
-                            <i className="fa fa-bars"></i>
+                            <i className="fa fa-bars text-[25px]"></i>
                         </button>
                     </div>
 
@@ -84,7 +84,7 @@ export default function NavBar() {
             {isOpen && <div onClick={() => setIsOpen(false)} className="fixed inset-0 bg-black/50 z-40 lg:hidden block" />}
 
             {/* Mobile Sidebar */}
-<div className={`fixed top-0 right-0 h-full w-64 bg-white z-50 transform transition-transform duration-300 lg:hidden block pl-[40px] clip-angles-header ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+<div className={`fixed top-0 right-0 h-full w-[80%] bg-white z-50 transform transition-transform duration-300 lg:hidden block pl-[40px] clip-angles-header ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="p-4 flex justify-end items-center">
                     <button onClick={() => setIsOpen(false)}>
                         <i className="fa fa-times text-white h-[40px] w-[40px] text-xl bg-[#f08223]"></i>

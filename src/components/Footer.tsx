@@ -19,7 +19,7 @@ export default function Footer() {
                 {/* Content */}
                 <div className="relative z-10 container mx-auto p-[10px] text-center max-w-7xl">
                     <div className="info flex flex-col">
-                        <div className="max-w-[930px] mx-auto">
+                        <div className="md:mx-auto ">
                             <div className="p-[10px] flex flex-col items-center">
 
                                 {/* Logo */}
@@ -55,23 +55,23 @@ export default function Footer() {
                         {/* Navigation Links */}
                         <div className="nav_link mt-[25px] mb-[20px]">
                             <nav className="flex justify-center flex-wrap">
-                                <li className="border_right list-none">
-                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Home</a>
+                                <li className="sm:border_right list-none">
+                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[10px] sm:mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Home</a>
                                 </li>
-                                <li className="border_right list-none">
-                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">About Us</a>
+                                <li className="sm:border_right list-none">
+                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[10px] sm:mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">About Us</a>
                                 </li>
-                                <li className="border_right list-none">
+                                <li className="sm:border_right list-none">
                                     <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Our Works</a>
                                 </li>
-                                <li className="border_right list-none">
-                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Blog</a>
+                                <li className="sm:border_right list-none">
+                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[10px] sm:mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Blog</a>
                                 </li>
-                                <li className="border_right list-none">
-                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Career</a>
+                                <li className="sm:border_right list-none">
+                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[10px] sm:mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Career</a>
                                 </li>
                                 <li className='list-none'>
-                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Contact Us</a>
+                                    <a href="#" className="hover:text-[#c9c9c9] text-[16px] font-opensans mx-[10px] sm:mx-[19px] leading-[16px] decoration-none tracking-[0.5px]">Contact Us</a>
                                 </li>
                             </nav>
                         </div>
@@ -89,31 +89,31 @@ export default function Footer() {
             <section className="cpoyright bg-[#131313] py-[5px]">
                 <div className="container max-w-7xl mx-auto">
                     <div className="grid grid-cols-12 items-center">
-                        <div className="col-span-6 p-[10px]">
+                        <div className="col-span-12 sm:col-span-6 p-[10px] sm:block hidden">
                             <p className="text-[#fff] font-opensans text-[16px] leading-normal tracking-[0.5px]">
                                 © {new Date().getFullYear()} Aphonic Solutions. All Rights Reserved.
                             </p>
                         </div>
-                        <div className="col-span-6 p-[10px]">
+                        <div className="col-span-12 sm:col-span-6 p-[10px]">
                             <div className="flex flex-row">
                                 <ul className="flex list-none flex-wrap justify-center">
-                                    <li className="border_right">
-                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] mr-[19px]">
+                                    <li className="sm:border_right">
+                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] mr-[10px] sm:mr-[19px]">
                                             Legal Disclaimer
                                         </a>
                                     </li>
-                                    <li className="border_right">
-                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] mx-[19px]">
+                                    <li className="sm:border_right">
+                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] mx-[10px] sm:mx-[19px]">
                                             Privacy Policy
                                         </a>
                                     </li>
-                                    <li className="border_right">
-                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] mx-[19px]">
+                                    <li className="sm:border_right">
+                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] mx-[10px] sm:mx-[19px]">
                                             Refund Policy
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] ml-[19px]">
+                                        <a href="#" className="text-[#fff] text-[16px] leading-[22px] font-normal font-opensans tracking-[0.5px] ml-[10px] sm:ml-[19px]">
                                             Terms & Conditions
                                         </a>
                                     </li>
